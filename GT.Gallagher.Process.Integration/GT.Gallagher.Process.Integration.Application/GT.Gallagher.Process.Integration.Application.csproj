@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Repository\" />
+		<None Remove="UseCase\" />
+		<None Remove="Boundaries\" />
+		<None Remove="Repository\Login\" />
+		<None Remove="UseCase\Handler\" />
+		<None Remove="UseCase\Login\" />
+		<None Remove="Repository\Notification\" />
+		<None Remove="UseCase\Notification\" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Boundaries\" />
+		<Folder Include="Repository\Login\" />
+		<Folder Include="UseCase\Handler\" />
+		<Folder Include="UseCase\Login\" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GT.Gallagher.Process.Integration.Domain\GT.Gallagher.Process.Integration.Domain.csproj" />
+  </ItemGroup>
+</Project>

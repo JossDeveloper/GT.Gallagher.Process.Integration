@@ -1,0 +1,31 @@
+﻿.swagger-ui .topbar {
+    background: #c80680;
+    /* Old browsers */
+    background: #c80680;
+    /* Old browsers  */
+    background: -moz-linear-gradient(right, #c80680 0%, #0d072f 41%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(right, #c80680 0%, #0d072f 41%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(right, #c80680 0%, #0d072f 41%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(right, #c80680 0%, #0d072f 41%);
+    /* IE10+ */
+    background: linear-gradient(to left, #c80680 0%, #0d072f 41%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$right', endColorstr='$left',GradientType=0 );
+    /* IE6-9 */
+}
+
+h2,
+h3 {
+    color: #c80680 !important;
+}
+
+.opblock-summary-get > button > span.opblock-summary-method {
+    background-color: #235e6f !important;
+}
+
+.opblock-summary-post > button > span.opblock-summary-method {
+    background-color: #0f8a5f !important;
+}
